@@ -1,0 +1,61 @@
+@font-face {
+    font-family: raleway;
+    src: url(Raleway-Light.ttf);
+}
+
+@font-face {
+    font-family: raleway-bold;
+    src: url(Raleway-SemiBold.ttf);
+}
+
+body {
+    font-family: raleway;
+}
+
+h1 {
+    background-color: rgb(0, 31, 56);
+    font-family: raleway-bold;
+    width: 50%;
+    color: white;
+    margin: 20px auto 20px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 12px;
+}
+
+h3 {
+    text-align: center;
+    font-size: larger;
+}
+
+p {
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+thead {
+    background-color: rgb(253, 244, 226);
+}
+
+th {
+    font-family: raleway-bold;
+    font-weight: bolder;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgba(0, 0, 0, 0.363);
+}
+
+tr:hover td{
+    background-color: rgba(0, 0, 0, 0.144);
+}
